@@ -3,8 +3,8 @@
 This project compares two transformer-based architectures — XLM-RoBERTa and mT5 — for detecting hate speech across multiple languages.
 It explores both discriminative (classification) and generative (text-to-text) modeling paradigms for multilingual natural language understanding (NLU).
 
-🚀 Overview
-🎯 Objective
+
+## 🎯 Objective
 
 To develop and evaluate multilingual hate speech detection models capable of classifying text as hate or non-hate across diverse languages such as English, French, German, and Italian.
 
@@ -16,28 +16,6 @@ mT5 (Small) — a generative text-to-text model that outputs “yes” or “no�
 
 ## 🧱 Architecture Diagram
 
-                ┌───────────────────────────┐
-                │   Multilingual Text Input │
-                └────────────┬──────────────┘
-                             │
-           ┌─────────────────┼───────────────────┐
-           │                                     │
-  ┌────────▼─────────┐                 ┌─────────▼────────┐
-  │  XLM-RoBERTa     │                 │   mT5 Model      │
-  │ (Discriminative)  │                 │ (Generative QA)  │
-  └────────┬──────────┘                 └────────┬─────────┘
-           │                                     │
-           │                                     │
-   Output: “Hate / Non-Hate”           Output: “Yes / No”
-           │                                     │
-           └────────────────────┬────────────────┘
-                                │
-                     ┌──────────▼──────────┐
-                     │   Evaluation Layer  │
-                     │  (Accuracy, F1 etc.)│
-                     └──────────┬──────────┘
-                                │
-                      Final Comparative Report
 
 ## ⚙️ Workflow
 
