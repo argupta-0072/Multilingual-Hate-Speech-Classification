@@ -14,9 +14,6 @@ XLM-RoBERTa (Base) — a discriminative classifier fine-tuned for binary hate sp
 
 mT5 (Small) — a generative text-to-text model that outputs “yes” or “no” when prompted with “Is this hate speech?”.
 
-## 🧱 Architecture Diagram
-
-
 ## ⚙️ Workflow
 
 1. Setup and Installation
